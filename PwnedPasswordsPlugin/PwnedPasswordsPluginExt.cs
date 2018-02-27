@@ -112,6 +112,8 @@ namespace PwnedPasswordsPlugin
             }
         }
 
+        public override string UpdateUrl => "https://raw.githubusercontent.com/nemec/Keepass-PwnedPasswordsPlugin/master/keepass.version";
+
         public override void Terminate()
         {
             var menu = _host.MainWindow.ToolsMenu.DropDownItems;
